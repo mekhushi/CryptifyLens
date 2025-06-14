@@ -8,7 +8,7 @@
 
 ---
 
-## 🚨 Problem
+## 🚨 Problem Statement
 
 In the digital age, privacy is fragile:
 - 🧾 Plain text is easy to intercept  
@@ -97,6 +97,10 @@ Feel free to fork the repo, raise issues, or submit pull requests!
 ---
 ## 👨‍💻 Author
 Made with ❤️ by @mekhushi
+
+---
+⚠️ Note: Due to Streamlit Cloud's camera/input limitations and OpenCV dependencies, deployment may face issues. The project runs fully offline.
+
 
 
 
