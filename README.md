@@ -19,7 +19,7 @@ In the digital age, privacy is fragile:
 
 ---
 
-## ✅ Solution — CryptifyLens v2
+## ✅ Solution — CryptifyLens
 
 > 🔐 AES Encrypted + 🖼️ LSB Embedded = A normal image hiding powerful secrets.
 
