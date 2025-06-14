@@ -1,0 +1,6 @@
+streamlit
+streamlit-camera-input-live
+cryptography
+opencv-python
+numpy
+Pillow
