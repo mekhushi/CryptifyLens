@@ -1,6 +1,6 @@
 streamlit
 streamlit-camera-input-live
 cryptography
-opencv-python
+opencv-python-headless
 numpy
 Pillow
