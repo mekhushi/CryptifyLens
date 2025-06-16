@@ -21,7 +21,7 @@ with tabs[0]:
         pil_image = Image.open(io.BytesIO(img_data.getvalue())).convert("RGB")
         image = np.array(pil_image)
         image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
-        st.image(image, caption="Captured Image", use_column_width=True)
+        st.image(image, caption="Captured Image", use_container_width=True)
 
         st.subheader("✍️ Step 2: Enter Message")
         msg = st.text_input("Your secret message:")
@@ -33,7 +33,7 @@ with tabs[0]:
                 encoded_img = encode_message(image, encrypted)
 
                 st.success("✅ Message encrypted & embedded successfully!")
-                st.image(encoded_img, caption="Stego Image")
+                st.image(encoded_img, caption="Stego Image",use_container_width=True)
                 cv2.imwrite("stego_image.png", encoded_img)
 
                 st.code(f"🔑 Your Secret Key:\n{key.decode()}")
