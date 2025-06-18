@@ -46,14 +46,6 @@ MESSAGE → 🔐 AES Encryption → 🖼️ Hide in Image → 📤 Share
 
 ---
 
-## 🎯 Real-World Scenario
-
-> Alice posts a scenic image on Instagram.  
-> Bob downloads it, uses CryptifyLens, pastes the secret key...  
-> 💥 Boom! Secret decoded. No one else even suspects.
-
----
-
 ## 🛠️ Tech Stack
 
 | Tool                 | Purpose                        |
